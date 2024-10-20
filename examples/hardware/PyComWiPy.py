@@ -20,10 +20,10 @@ import BlynkLib
 from network import WLAN
 import machine, time
 
-WIFI_SSID = 'YourWiFiNetwork'
-WIFI_PASS = 'YourWiFiPassword'
+WIFI_SSID = 'Tenda_BAO'
+WIFI_PASS = '12341234'
 
-BLYNK_AUTH = 'YourAuthToken'
+BLYNK_AUTH = 'Q65Z-rx5UzY-qBFgDrthTx4QYQg9fR4s'
 
 print("Connecting to WiFi...")
 wifi = WLAN(mode=WLAN.STA)
